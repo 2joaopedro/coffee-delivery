@@ -4,21 +4,21 @@ import { rgba } from "polished";
 import { TitleText } from "../../../../components/Typography";
 
 export const IntroContainer = styled.section`
-    width: 100%;
-    height: 34rem;
+  width: 100%;
+  height: 34rem;
 
-    background: ${({ theme }) => `url(${introbackground}) no-repeat center,
+  background: ${({ theme }) => `url(${introbackground}) no-repeat center,
       linear-gradient(
         0deg,
         ${theme.colors["base-white"]} 0%,
         ${rgba(theme.colors["base-background"], 0.2)} 50%,
         ${theme.colors["base-background"]} 100%
       )`};
-    background-size: cover;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 export const IntroContent = styled.div`
     display: flex;

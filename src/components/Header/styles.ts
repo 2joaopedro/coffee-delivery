@@ -9,6 +9,10 @@ export const HeaderContainer = styled.header`
     align-items: center;
     justify-content: center;
 
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
     > div {
         display: flex;
         align-items: center;
